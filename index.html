@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA DE TIENDA </title>
+
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+    <nav class="navbar"></nav>
+
+    <!--hero section-->
+    <header class="hero-section">
+        <div class="content">
+            <img src="img/light-logo.png" class="logo" alt="">
+            <p class="sub-heading">La mejor colección de moda de todos los tiempos.</p>
+        </div>
+    </header>
+
+    <section id="men-tshirt-products"></section>
+
+    <!-- collections -->
+    <section class="collection-container">
+        <a href="mujer.html" class="collection">
+            <img src="img/women-collection.png" alt="">
+            <p class="collection-title">Mujer <br> prendas de vestir </p>
+        </a>
+        <a href="#" class="collection">
+            <img src="img/men-collection.png" alt="">
+            <p class="collection-title">Hombre <br> prendas de vestir </p>
+        </a>
+        <a href="#" class="collection">
+            <img src="img/accessories-collection.png" alt="">
+            <p class="collection-title">Accesorios </p>
+        </a>
+    </section>
+    <section id="men-tshirt-products-2"></section>
+
+    <footer class="footer"></footer>
+    
+    <script src="js/home.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+    
+    <script>
+        getProducts('POLERA MEN').then(data => createProductSlider(data,'#men-tshirt-products', 'Men T-shirt')),
+        getProducts('gorro').then(data => createProductSlider(data,'#men-tshirt-products-2', 'Gorro'))
+        getProducts('POLERA MEN').then(data => createProductSlider(data,'#men-tshirt-products-2', 'Men T-shirt'))
+    </script>
+
+</body>
+</html>
