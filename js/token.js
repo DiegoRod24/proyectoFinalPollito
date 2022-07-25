@@ -60,10 +60,10 @@ const processData = (data) => {
 const showAlert = (msg, type) => {
     let alertBox = document.querySelector('.alert-box');
     let alertMsg = document.querySelector('.alert-msg');
-    let alertImg = document.querySelector('.alert-img');
+    //let alertImg = document.querySelector('.alert-img');
 
     alertMsg.innerHTM = msg;
-
+/*
     if(type ='success'){
         alertImg.src = `img/success.png`;
         alertMsg.style.color = `#0ab50a`;
@@ -71,7 +71,7 @@ const showAlert = (msg, type) => {
         alertImg.src= `img/error.png`;
         alertMsg.style.color = null; 
     }
-
+*/
     alertBox.classList.add('show');
     setTimeout(() => {
         alertBox.classList.remove('show');
