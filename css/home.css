@@ -1,14 +1,14 @@
 @import './nav.css';
 @import './footer.css';
 
-.hero-section{
+
+
+.fondo1{
 width: 100%;
-height: calc(100vh - 120px);
-background-image: url('../img/header.png');
+height: calc(90vh - 120px);
+background-image: url('../img/2.gif');
 background-size: cover;
-display: flex;
-justify-content: center;
-align-items: center;
+
 }
 
 .hero-section .logo{

@@ -6,7 +6,7 @@ const createNav = () => {
     <a href="/"><img src="../img/dark-logo.png" alt="" class="brand-logo" alt=""></a>
     <div class="nav-items">
              <div class="search">
-                <input type="text" class="search-box" placeholder="buscar marca, producto">
+                <input type="text" class="search-box" placeholder="¿Qué Buscas?">
                 <button class="search-btn">Buscar</button>
             </div>
             <a>
@@ -20,11 +20,11 @@ const createNav = () => {
          </div>
     </div>
     <ul class="links-container">
-        <li class="link-item"><h2><a href="#home" class="link">home</a></h2></li>
-        <li class="link-item"><h2><a href="../mujer.html" class="link">women</a></h2></li>
-        <li class="link-item"><h2><a href="#" class="link">men</a></h2></li>
-        <li class="link-item"><h2><a href="#" class="link">kids</a></h2></li>
-        <li class="link-item"><h2><a href="#" class="link">accesorios</a></h2></li>
+        <li class="link-item"><h2><a href="#home" class="link">Inicio</a></h2></li>
+        <li class="link-item"><h2><a href="../mujer.html" class="link">Mujer</a></h2></li>
+        <li class="link-item"><h2><a href="#" class="link">Hombres</a></h2></li>
+        <li class="link-item"><h2><a href="#" class="link">Niños</a></h2></li>
+        <li class="link-item"><h2><a href="#" class="link">Accesorios</a></h2></li>
     </ul>   
 `;
 }
