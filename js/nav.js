@@ -1,7 +1,7 @@
 const createNav = () => {
     let nav = document.querySelector('.navbar');
 
-    nav.innerHTML=`
+    nav.innerHTML = `
     <div class="nav">
     <a href="/"><img src="../img/dark-logo.png" alt="" class="brand-logo" alt=""></a>
     <div class="nav-items">
@@ -19,15 +19,25 @@ const createNav = () => {
                 <a href="/cart"><img src="../img/cart.png" alt=""></a>
          </div>
     </div>
+    <div class="respmenu">
+    <input type="checkbox">
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-times"></i>
+    <nav>
     <ul class="links-container">
-        <li class="link-item"><h2><a href="#home" class="link">Inicio</a></h2></li>
-        <li class="link-item"><h2><a href="../mujer.html" class="link">Mujer</a></h2></li>
-        <li class="link-item"><h2><a href="#" class="link">Hombres</a></h2></li>
-        <li class="link-item"><h2><a href="#" class="link">Niños</a></h2></li>
-        <li class="link-item"><h2><a href="#" class="link">Accesorios</a></h2></li>
-    </ul>   
+        <li class="link-item"><a href="/" class="link">Inicio</a></li>
+        <li class="link-item"><a href="../mujer.html" class="link">Mujer</a></li>
+        <li class="link-item"><a href="../hombres.html" class="link">Hombres</a></li>
+        <li class="link-item"><a href="../ninos.html" class="link">Niños</a></li>
+        <li class="link-item"><a href="../accesorios.html" class="link">Accesorios</a></li>
+    </ul> 
+    </nav>
+    </div>
+    </div>
 `;
-}
+};
+
+<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 
 createNav();
 
