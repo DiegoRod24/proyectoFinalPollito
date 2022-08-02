@@ -1,6 +1,7 @@
 const createNav = () => {
     let nav = document.querySelector('.navbar');
 
+    
     nav.innerHTML = `
     <div class="nav">
     <a href="/"><img src="../img/dark-logo.png" alt="" class="brand-logo" alt=""></a>
@@ -25,11 +26,11 @@ const createNav = () => {
     <i class="fas fa-times"></i>
     <nav>
     <ul class="links-container">
-        <li class="link-item"><a href="/" class="link">Inicio</a></li>
+        <li class="link-item"><a href="#home" class="link">Inicio</a></li>
         <li class="link-item"><a href="../mujer.html" class="link">Mujer</a></li>
-        <li class="link-item"><a href="../hombres.html" class="link">Hombres</a></li>
-        <li class="link-item"><a href="../ninos.html" class="link">Niños</a></li>
-        <li class="link-item"><a href="../accesorios.html" class="link">Accesorios</a></li>
+        <li class="link-item"><a href="#" class="link">Hombres</a></li>
+        <li class="link-item"><a href="#" class="link">Niños</a></li>
+        <li class="link-item"><a href="#" class="link">Accesorios</a></li>
     </ul> 
     </nav>
     </div>
@@ -37,7 +38,7 @@ const createNav = () => {
 `;
 };
 
-<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
 
 createNav();
 

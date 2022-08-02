@@ -167,7 +167,8 @@ h2:hover::after{
     width: 100%;
     left: 0;
 }
-/* desde aca*/
+    
+
 @media only screen and (max-width: 600px) {
     .respmenu a {
   color: inherit;
@@ -205,5 +206,24 @@ h2:hover::after{
   position: relative;
   background: #123456;
   min-height: 48px;
+}
+
+.respmenu nav {
+  display: none;
+}
+
+.respmenu input:checked ~ nav {
+  display: block;
+}
+
+.respmenu input:checked ~ .fa-bars {
+  display: none;
+}
+
+.respmenu input:not(:checked) ~ .fa-times {
+  display: none;
+}
+.links-container{
+    display: block;
 }
 }

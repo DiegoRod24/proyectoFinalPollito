@@ -27,7 +27,7 @@ const createFooter = () =>{
                 <a href="https://github.com/DiegoRod24"><i class="fa-brands fa-github"></i>  Diego Rodriguez</a>
                 <a href="https://github.com/RaulAraujoB"><i class="fa-brands fa-github"></i>   Raúl Araujo</a>
                 <a href="https://github.com/YessicaManrique"><i class="fa-brands fa-github"></i>  Yessica Manrique</a>
-                <a href="https://github.com/RaulAraujoB"><i class="fa-brands fa-github"></i>  Fernando Cangana</a>              
+                <a href="https://github.com/FernandoCangana"><i class="fa-brands fa-github"></i>  Fernando Cangana</a>              
             </div>
 
             <div class="box__footer">
@@ -35,7 +35,6 @@ const createFooter = () =>{
                 <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>    Facebook</a>
                 <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i>  Twitter</a>
                 <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i>  Instagram</a>
-                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i>  hi</a>
             </div>
 
             
